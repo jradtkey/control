@@ -8,8 +8,8 @@ class Control extends PureComponent {
   constructor(props) {
     super(props)
     this.state = {
-      minValue: 44,
-      maxValue: 190,
+      minValue: 1,
+      maxValue: 10,
       list: [],
       currentValue: 0,
       setValue: 1
