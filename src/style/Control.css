@@ -1,0 +1,54 @@
+.control-container {
+  font-size: 30px;
+  display: flex;
+  width: 400px;
+  padding: 10px;
+}
+
+.control-range {
+  margin-left: 45px;
+}
+
+.control-form {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.valueInput {
+  width: 100px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+#button {
+  border-radius: 10px;
+}
+
+.control-viewport {
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: auto;
+  background-color: white;
+  color: red;
+  border-radius: 10px;
+  width: 100px;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.control-nav {
+  background: none;
+  border: none;
+  color: yellow;
+  cursor: pointer;
+  outline: none;
+}
+
+.control-nav:hover {
+  outline: 1px solid red;
+  border-radius: 3px;
+}
+
+.control-nav:focus {
+  display: none;
+}
